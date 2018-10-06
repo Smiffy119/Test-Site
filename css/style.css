@@ -42,17 +42,21 @@ body{
 }
 
 .row{
+	display: -ms-flex;
 	display: flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 
 .side{
+	-ms-flex: 30%;
 	flex: 30%;
 	background-color: #f1f1f1
 	padding: 20px;
 }
 
 .main{
+	-ms-flex: 70%;
 	flex: 70%;
 	background-color: white;
 	padding: 20px;
@@ -71,40 +75,6 @@ s
 	}
 }
 
-.accordion{
-	background: #eee;
-	color: #444;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	text-align: left;
-	border: none;
-	outline: none;
-	transition: 0.4s;
-}
-
-.active, .accordion:hover{
-	background-color: #ccc;
-}
-
-.panel{
-	padding: 0 18px;
-	background-color: white;
-	display: none;
-	overflow: hidden;
-}
-
-.accordion:after{
-	content: '\02795';
-	font-size: 13px;
-	color: #777;
-	float: right;
-	margin-left: 5px;
-}
-
-.active:after{
-	content: "\2796";
-}
 .footer{
 	padding: 20px;
 	text-align: center;
