@@ -1,2 +1,2 @@
 # Test-Site-
-First Attempt at a responsive website
+First attempt at a responsive website
