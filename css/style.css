@@ -6,9 +6,11 @@ body{
 .header{
 	padding: 80px;
 	text-align: center;
-	background: #0093af;
+	background-color: #0093af;
+	background-image: url(sunset.jpg);
 	color: white;
 }
+
 
 .header h1{
 	font-size: 40px;
@@ -80,3 +82,27 @@ s
 	text-align: center;
 	background: #ddd
 }
+
+.img-text{
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+html, body{
+	height: 100%
+	/*font-family: "Courier New", monospace;*/
+}
+
+.image{
+    background-color: #757575;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/background.jpg);
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
